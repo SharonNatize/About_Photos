@@ -3,7 +3,7 @@ import os
 from PIL import Image
 
 # Ruta de la carpeta "assets" donde están las imágenes
-assets_path = 'C:/Users/Sharon/Desktop/Test_fotos/assets/'
+assets_path = 'assets/'
 
 # Título de la app
 st.title("Testing Up Photos")
