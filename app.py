@@ -13,7 +13,7 @@ if 'show_images' not in st.session_state:
     st.session_state.show_images = False  # Iniciar con las imágenes ocultas
 
 # Listar todas las imágenes en la carpeta assets
-images_list = [f for f in os.listdir(assets_path) if f.endswith(('.jpg', '.jpeg', '.png'))]
+images_list = sorted([f for f in os.listdir(assets_path) if f.endswith(('.jpg', '.jpeg', '.png'))], reverse=True)
 
 # Función para mostrar las imágenes
 def mostrar_imagenes():
