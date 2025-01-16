@@ -5,7 +5,7 @@ from PIL import Image
 PORT = int(os.environ.get("PORT", 8501))  # Render asigna el puerto en la variable de entorno PORT
 st.run(port=PORT)
 # Ruta de la carpeta "assets" donde están las imágenes
-assets_path = 'assets/'
+assets_path = 'C:/Users/Sharon/Desktop/Test_fotos/assets'
 
 # Título de la app
 st.title("Testing Up Photos")
